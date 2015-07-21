@@ -1,0 +1,16 @@
+文件夹名称命名规范：
+1. 除Unity工程目录下的文件夹以大写字母开头（与Unity风格统一）外，
+   其余文件夹命名统一使用全小写字母；
+
+文件夹目录结构：
+- trunk
+    - art_resources             // 美术设计稿（例如psd）
+    - client                    // 客户端
+    - config_data               // 配置数据（客户端、服务端均会使用到）
+    - server                    // 服务端
+    - simulator                 // 模拟器
+        - android
+        - ios
+        - windows
+- branch
+- release
